@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+    font-family: sans-serif; font-size: 18px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 1rem;
+    margin: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    border-radius: 1rem;
+    gap: 3rem;
+  }
+  
+  .title>a {
+    text-decoration: none;
+    color: dodgerblue;
+  }
+
+  .title {
+    color: dodgerblue;
+  }
+ 
+  .genre {
+    color: black;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+    margin-left: 2px;
+    font-size: 1.4em;
+    color: grey;
+  }
+  
+  .buttons i {
+    width: 80px;
+  }
+  
+  input, select, button {
+    font-size: 100%;
+    width : 100%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  .edit>button>a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .delete {
+    display: inline;
+  }
+  
+  .menu {
+    display: flex;
+    padding: 15px;
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+  }
+  
+  .menu li a:visited {
+    color: white;
+  }
+  
+  .menu li {
+    padding-right: 15px;
+    list-style: none;
+    color: white;
+    font-family: sans-serif; font-size: 16px;
+  }
+
+  
